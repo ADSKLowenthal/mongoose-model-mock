@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "mongoose-mock",
+  "name": "mongoose-model-mock",
   "version": "0.4.0",
   "description": "A replacement for mongoose in tests returning models with sinon stubs for methods",
   "main": "index.js",
@@ -9,25 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:JohanObrink/mongoose-mock.git"
+    "url": "git@github.com:ADSKLowenthal/mongoose-model-mock.git"
   },
   "keywords": [
     "mongoose",
     "test",
     "sinon"
   ],
-  "author": "Johan Öbrink <johan.obrink@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JohanObrink/mongoose-mock/issues"
+    "url": "https://github.com/ADSKLowenthal/mongoose-model-mock/issues"
   },
-  "homepage": "https://github.com/JohanObrink/mongoose-mock",
+  "homepage": "https://github.com/ADSKLowenthal/mongoose-model-mock",
   "dependencies": {
     "sinon": "~1.8.1"
   },
   "devDependencies": {
     "chai": "~1.9.0",
-    "grunt": "~0.4.2",
     "gulp": "^3.8.8",
     "gulp-jshint": "^1.8.5",
     "gulp-mocha": "^1.1.0",
